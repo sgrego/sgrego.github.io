@@ -2,7 +2,7 @@
 /* CSS document */
 body {
   font-family: Roboto Light, sans-serif;
-  font-size: 16px;
+  font-size: 1.6vmax;
   margin: 0px;
 }
 h1, h2, h3 {
@@ -11,7 +11,7 @@ h1, h2, h3 {
 }
 .topnav {
 	font-family: Roboto, sans-serif;
-	font-size: 16px;
+	font-size: 1.6vmax;
 	overflow: hidden;
 	background-color: black;
 	color: white;
@@ -25,7 +25,7 @@ h1, h2, h3 {
 	float: right;
 	display: block;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 1.4vmax 1.6vmax;
 	color: white;
 	text-decoration: none;
 }
@@ -38,7 +38,7 @@ h1, h2, h3 {
 	display: none;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 1.4vmax 1.6vmax;
 	text-decoration: none;
 }
 .topnav.responsive a {
@@ -48,7 +48,7 @@ h1, h2, h3 {
 }
 .topwhitegap {
 	font-family: Roboto, sans-serif;
-	font-size: 16px;
+	font-size: 1.6vmax;
 	float: right;
 	overflow: hidden;
 	background-color: white;
@@ -56,26 +56,26 @@ h1, h2, h3 {
 	padding: 0px;
 	margin: 0px;
 	width: 100%;
-	height: 55px;
+	height: 5.5vmax;
 }
 .white {
-  padding: 4px 16px 4px 16px;
+  padding: 0.4vmax 1.6vmax 0.4vmax 1.6vmax;
   background-color: white;
   color: #373737;
 }
 .paper {
-  padding: 4px 16px 4px 16px;
+  padding: 0.4vmax 1.6vmax 0.4vmax 1.6vmax;
   background-color: #F4F4F4;
   color: #252525;
 }
 .silk {
-  padding: 4px 16px 4px 16px;
+  padding: 0.4vmax 1.6vmax 0.4vmax 1.6vmax;
   background-color: #DCD0C0;
   color: #373737;
 }
 .bottomnav {
 	font-family: Roboto Light, sans-serif;
-	font-size: 16px;
+	font-size: 1.6vmax;
 	float: right;
 	overflow: hidden;
 	top: 0px;
@@ -84,16 +84,16 @@ h1, h2, h3 {
 	width: 100%;
   background-color: #C0B283;
   color: white;
-  height: 47px;
+  height: 4.7vmax;
 }
 .bottomnav a {
 	float: left;
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 1.4vmax 1.6vmax;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 1.6vmax;
 }
 .bottomnav a:hover {
 	background-color: #DDDDDD;
@@ -102,8 +102,8 @@ h1, h2, h3 {
 :target:before {
   content: "";
   display: block;
-  height: 47px; /* fixed header height*/
-  margin: -47px 0px 0px 0px; /* negative fixed header height */
+  height: 4.7vmax; /* fixed header height*/
+  margin: -4.7vmax 0px 0px 0px; /* negative fixed header height */
 }
 @media screen and (max-width: 1080px) {
   .topnav a {display: none;}
