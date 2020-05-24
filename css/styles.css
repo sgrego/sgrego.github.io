@@ -105,14 +105,14 @@ h1, h2, h3 {
   height: 4.7vmax; /* fixed header height*/
   margin: -4.7vmax 0px 0px 0px; /* negative fixed header height */
 }
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 750px) {
   .topnav a {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
   }
 }
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 750px) {
   .topnav.responsive {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
