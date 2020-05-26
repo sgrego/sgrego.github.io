@@ -1,16 +1,16 @@
 @charset "UTF-8";
 /* CSS document */
 body {
-  font-family: 'Knewave Light', sans-serif;
+  font-family: 'Roboto Light', sans-serif;
   font-size: medium;
   margin: 0px;
 }
 h1, h2, h3 {
-  font-family: 'Knewave', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
 }
 .topnav {
-	font-family: 'Knewave', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: large;
 	overflow: hidden;
 	background-color: black;
@@ -47,7 +47,7 @@ h1, h2, h3 {
 	text-align: left;
 }
 .topwhitegap {
-	font-family: 'Knewave', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: large;
 	float: right;
 	overflow: hidden;
@@ -74,7 +74,7 @@ h1, h2, h3 {
   color: #373737;
 }
 .bottomnav {
-	font-family: 'Knewave Light', sans-serif;
+	font-family: 'Roboto Light', sans-serif;
 	font-size: large;
 	float: right;
 	overflow: hidden;
@@ -104,9 +104,6 @@ h1, h2, h3 {
   height: 3.0em; /* fixed header height*/
   margin: -3.0em 0px 0px 0px; /* negative fixed header height */
 }
-@import url(http://fonts.googleapis.com/css?family=Knewave);
-@import url(http://fonts.googleapis.com/css?family=Roboto);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Light);
 @media screen and (max-width: 750px) {
   .topnav a {display: none;}
   .topnav a.icon {
