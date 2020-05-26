@@ -1,16 +1,18 @@
 @charset "UTF-8";
 /* CSS document */
 body {
-  font-family: 'Roboto+Light', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   font-size: medium;
   margin: 0px;
 }
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
+  font-weight: 500;
 }
 .topnav {
 	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 	font-size: large;
 	overflow: hidden;
 	background-color: black;
@@ -48,6 +50,7 @@ h1, h2, h3 {
 }
 .topwhitegap {
 	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 	font-size: large;
 	float: right;
 	overflow: hidden;
@@ -74,7 +77,8 @@ h1, h2, h3 {
   color: #373737;
 }
 .bottomnav {
-	font-family: 'Roboto Light', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 	font-size: large;
 	float: right;
 	overflow: hidden;
